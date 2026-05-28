@@ -1,25 +1,28 @@
-# Análisis Data Kontaduría
+# Kontaduría Data Lab
 
-Proyecto de análisis de encuesta para una plataforma de gestión contable/operativa orientada a emprendedores.
+Sitio estático completo para análisis de encuesta de una plataforma de gestión contable/operativa para emprendedores.
 
-## Archivos principales
+## Secciones
 
-- `index.html`: página de inicio del proyecto.
-- `dashboard_presentacion.html`: dashboard limpio con sección de diapositivas para presentar en clase.
-- `planes_microeconomia_econometria.html`: análisis de pricing con microeconomía y econometría, comparando tarifa única versus 3 planes diferenciados.
-- `data/respuestas-2026-05-28.csv`: base de respuestas usada para el análisis.
+- `/` landing page del proyecto.
+- `/presentacion/` diapositivas para clase.
+- `/dash/` dashboard analítico.
+- `/maximizacion/` comparación microeconómica: tarifa única vs 3 planes.
+- `/metodologia/` explicación técnica y supuestos.
+- `/data/respuestas-2026-05-28.csv` base de datos original.
 
-## Enfoque del análisis
+## Cómo subir a GitHub
 
-El proyecto utiliza:
+1. Descomprime el ZIP.
+2. Sube todo el contenido al repositorio.
+3. Activa GitHub Pages desde `Settings > Pages` usando branch `main` y carpeta `/root`.
 
-- Análisis descriptivo de encuesta.
-- Priorización de funciones deseadas.
-- Curva de disposición de pago.
-- Comparación entre tarifa única y discriminación de precios por segmentos.
-- Segmentación de clientes.
-- Modelos econométricos exploratorios.
+## Cómo correr local
 
-## Conclusión ejecutiva
+Abre `index.html` directamente o usa:
 
-La encuesta sugiere una oportunidad para un SaaS de gestión para emprendedores con foco en automatización financiera, inventario, alertas tributarias y control operativo. La estrategia de 3 planes permite capturar más excedente del consumidor que una tarifa única, siempre que los planes estén bien diferenciados para evitar canibalización.
+```bash
+python -m http.server 8000
+```
+
+Luego entra a `http://localhost:8000`.
