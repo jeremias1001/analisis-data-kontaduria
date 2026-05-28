@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard y presentación - Kontaduría</title>
+<style>
+body{margin:0;background:#f6f8fc;color:#102033;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}.wrap{width:min(1120px,calc(100vw - 32px));margin:auto}.top{background:#fff;border-bottom:1px solid #e6ebf3;position:sticky;top:0}.nav{display:flex;justify-content:space-between;gap:12px;padding:14px 0}.nav a{color:#102033;text-decoration:none;border:1px solid #e6ebf3;border-radius:999px;padding:9px 13px}.hero{padding:42px 0}.badge{display:inline-block;background:#edf3ff;color:#246bff;border-radius:999px;padding:7px 11px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}h1{font-size:42px;line-height:1.05;margin:16px 0 10px}p{color:#607089;line-height:1.6}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}.card{background:#fff;border:1px solid #e6ebf3;border-radius:22px;padding:22px;box-shadow:0 16px 40px rgba(18,32,51,.08)}.kpi{grid-column:span 3}.kpi b{font-size:34px;display:block;margin:7px 0}.span12{grid-column:span 12}.span6{grid-column:span 6}.slide{margin:22px 0}.slide h2{font-size:30px;margin:8px 0}.bar{height:12px;background:#eaf0fa;border-radius:999px;overflow:hidden;margin:9px 0}.bar span{display:block;height:100%;background:#246bff;border-radius:999px}.green span{background:#10b981}.red span{background:#ef4444}.violet span{background:#7c3aed}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{border-bottom:1px solid #e6ebf3;padding:10px;text-align:left;font-size:14px}th{color:#607089}.note{background:#f9fbff;border:1px solid #e6ebf3;border-radius:16px;padding:16px}.footer{padding:24px 0 50px;color:#607089;font-size:13px}@media(max-width:850px){.kpi,.span6{grid-column:span 12}h1{font-size:32px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav"><b>Kontaduría Data Analysis</b><div><a href="index.html">Inicio</a><a href="planes_microeconomia_econometria.html">Planes</a></div></div></header>
+<main class="wrap hero">
+<span class="badge">Dashboard + presentación</span>
+<h1>Encuesta a emprendedores: oportunidad, dolores y producto</h1>
+<p>Versión limpia para presentar en clase. Resume 54 respuestas y transforma la encuesta en decisiones de producto, pricing y segmentación.</p>
+<section class="grid">
+<div class="card kpi">Muestra<b>54</b><p>respuestas procesadas.</p></div>
+<div class="card kpi">Alta intención<b>87%</b><p>probabilidad de uso 4 o 5.</p></div>
+<div class="card kpi">Tarifa única óptima<b>$30k</b><p>máximo ingreso muestral.</p></div>
+<div class="card kpi">Función líder<b style="font-size:22px">Ingresos/gastos</b><p>registro automático.</p></div>
+</section>
+<section class="card slide"><span class="badge">Diapositiva 1</span><h2>Objetivo del estudio</h2><p>Evaluar si existe oportunidad para una plataforma de gestión contable y operativa para emprendedores.</p><div class="note">La pregunta central es: ¿qué producto construir, para quién y a qué precio?</div></section>
+<section class="card slide"><span class="badge">Diapositiva 2</span><h2>Perfil de la muestra</h2><p>La muestra mezcla gastronomía, servicios profesionales, venta de productos físicos, belleza, tecnología y otros rubros.</p><table><tr><th>Rubro</th><th>Respuestas</th></tr><tr><td>Gastronomía o alimentos</td><td>15</td></tr><tr><td>Servicios profesionales</td><td>13</td></tr><tr><td>Venta de productos físicos</td><td>9</td></tr><tr><td>Otros</td><td>17</td></tr></table></section>
+<section class="card slide"><span class="badge">Diapositiva 3</span><h2>Dolores principales</h2><p>Los dolores se concentran en inventario, control financiero, tributación e integración de sistemas.</p><p>Inventario y stock</p><div class="bar red"><span style="width:85%"></span></div><p>Contabilidad y control financiero</p><div class="bar red"><span style="width:78%"></span></div><p>Tributación / SII</p><div class="bar red"><span style="width:48%"></span></div></section>
+<section class="card slide"><span class="badge">Diapositiva 4</span><h2>Funciones deseadas</h2><table><tr><th>Función</th><th>Frecuencia</th></tr><tr><td>Registro automático de ingresos y gastos</td><td>33</td></tr><tr><td>Control de inventario</td><td>29</td></tr><tr><td>Recordatorios de pagos o vencimientos</td><td>29</td></tr><tr><td>Apoyo para declarar impuestos</td><td>27</td></tr><tr><td>Gestión de ventas</td><td>27</td></tr></table></section>
+<section class="card slide"><span class="badge">Diapositiva 5</span><h2>Pricing</h2><p>La tarifa única que maximiza ingreso dentro de la muestra es cercana a $30.000 mensuales.</p><table><tr><th>Precio</th><th>Adopción estimada</th><th>Ingreso muestral</th></tr><tr><td>$15.000</td><td>70,4%</td><td>$570.000</td></tr><tr><td>$30.000</td><td>42,6%</td><td>$690.000</td></tr><tr><td>$55.000</td><td>14,8%</td><td>$440.000</td></tr></table></section>
+<section class="card slide"><span class="badge">Diapositiva 6</span><h2>Conclusión</h2><p>La data sugiere oportunidad real para un SaaS simple, automatizado y centrado en control financiero, inventario y obligaciones tributarias.</p><ul><li>MVP: ingresos/gastos, inventario, recordatorios y apoyo tributario.</li><li>Pricing recomendado: no tarifa única, sino 3 planes.</li><li>Validación siguiente: piloto con pago real.</li></ul></section>
+<section class="grid">
+<div class="card span6"><h2>Lectura de negocio</h2><p>El usuario no busca solo contabilidad; busca orden, ahorro de tiempo y control del negocio.</p></div>
+<div class="card span6"><h2>Lectura académica</h2><p>El análisis combina estadística descriptiva, econometría exploratoria y microeconomía de precios.</p></div>
+</section>
+<div class="footer">Nota: análisis exploratorio basado en 54 respuestas. No debe interpretarse como causalidad definitiva.</div>
+</main>
+</body>
+</html>
