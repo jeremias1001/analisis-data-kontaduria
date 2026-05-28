@@ -26,3 +26,9 @@ python -m http.server 8000
 ```
 
 Luego entra a `http://localhost:8000`.
+
+
+## Nuevas secciones
+
+- `modelo-negocios/`: modelo de negocio SaaS basado en la encuesta.
+- `solucion/`: solución propuesta al problema detectado.
